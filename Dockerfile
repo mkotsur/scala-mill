@@ -1,21 +1,18 @@
 #
 # Scala and Mill Dockerfile
 #
-# https://github.com/nightscape/scala-mill
+# Forked from: https://github.com/nightscape/scala-mill
 #
 
 # Pull base image
-FROM openjdk:8u181
+FROM openjdk:14
 
 # Env variables
-ENV SCALA_VERSION 2.12.7
-ENV MILL_VERSION 0.3.2
+ENV SCALA_VERSION 2.13.2
+ENV MILL_VERSION 0.7.3
 
 # Define working directory
 WORKDIR /root
-
-# Scala expects this file
-RUN touch /usr/lib/jvm/java-8-openjdk-amd64/release
 
 # Install Scala
 ## Piping curl directly in tar
