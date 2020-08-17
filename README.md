@@ -1,4 +1,4 @@
-# Scala and Mill Dockerfile
+# Scala and Mill Dockerfile [![Build Status](https://circleci.com/gh/mkotsur/scala-mill.svg?&style=shield&circle-token=238280aaa74a46765a4f7a70e60e9d5b862c7f8c)]
 
 This repository contains **Dockerfile** of [Scala](http://www.scala-lang.org) and [Mill](http://www.lihaoyi.com/mill/).
 
