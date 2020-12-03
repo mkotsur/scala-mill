@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SCALA_VERSION=${1:-"2.13.3"} 
-MILL_VERSION=${1:-"0.8.0"} 
+MILL_VERSION=${1:-"0.9.3"} 
 TAG="$SCALA_VERSION"_"$MILL_VERSION"
 
 echo "Building image with Scala $SCALA_VERSION and Mille $MILL_VERSION"
