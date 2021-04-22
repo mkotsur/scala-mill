@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SCALA_VERSION=${1:-"2.13.3"} 
+SCALA_VERSION=${1:-"2.13.5"} 
 MILL_VERSION=${1:-"0.9.6"} 
 TAG="$SCALA_VERSION"_"$MILL_VERSION"
 
